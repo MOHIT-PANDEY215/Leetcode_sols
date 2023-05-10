@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//binary search function
+
 int search(vector<int>& nums, int target) {
         int i=0,j=nums.size()-1;
         while(i<=j){
