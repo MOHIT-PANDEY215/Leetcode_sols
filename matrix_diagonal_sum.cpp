@@ -15,6 +15,8 @@ int main(){
         mat.push_back(flag);
     }
     int sum=0;
+
+//solution
         for(int i=0;i<mat.size();++i){
             for(int j=0;j<mat[i].size();++j){
                 if(i==j||i+j==mat[0].size()-1)
