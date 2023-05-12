@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//solution
 int searchInsert(vector<int>& nums, int target) {
         int i=0,j=nums.size()-1,mid;
         while(i<=j){
